@@ -29,5 +29,6 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category="Fonts", Config)
 	FSlateFontInfo Subtitle;
 
-	
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category="Styles", Config)
+	FButtonStyle ButtonStyle;
 };
